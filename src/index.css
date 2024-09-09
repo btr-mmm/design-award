@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Comic Sans MS', 'Comic Sans', sans-serif;
+  @apply text-white;
+}
+
+.decoration-sign {
+  clip-path: polygon(21% 34%, 85% 34%, 97% 52%, 86% 76%, 51% 77%, 23% 77%, 22% 72%, 0 72%, 0 30%, 20% 30%);
+}
+
+.decoration-heart {
+  clip-path: polygon(48% 30%, 37% 23%, 25% 20%, 14% 21%, 6% 26%, 1% 36%, 1% 54%, 6% 64%, 20% 79%, 36% 89%, 52% 97%, 64% 91%, 72% 85%, 80% 78%, 88% 69%, 97% 60%, 100% 48%, 99% 39%, 95% 27%, 87% 18%, 78% 13%, 65% 14%, 55% 22%);
+}
